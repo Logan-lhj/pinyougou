@@ -1,0 +1,308 @@
+/* 版心 */
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+/* 快捷导航 */
+.shortcut {
+    font-size: 10px;
+    line-height: 31px;
+    height: 31px;
+    background-color: #f1f1f1;
+}
+
+.shortcut ul li {
+    float: left;
+
+}
+
+.style_red {
+    color: #c81623;
+}
+
+.shortcut .fr ul li:nth-child(even) {
+    width: 1px;
+    height: 12px;
+    background-color: #666;
+    margin: 9px 15px 0;
+}
+
+@font-face {
+    font-family: 'iconfont';
+    src: url('../fonts/iconfont.ttf?t=1649748290839') format('truetype');
+}
+
+.iconfont {
+    font-family: "iconfont" !important;
+    font-size: 16px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.arrow-icon::after {
+    font-family: 'iconfont';
+    content: '\e66a';
+    margin-left: 6px;
+}
+
+/* 头部 */
+
+
+.header {
+    position: relative;
+    height: 105px;
+    /* background-color: pink; */
+}
+
+.logo {
+    position: absolute;
+    top: 25px;
+    width: 220px;
+    height: 71px;
+}
+
+.logo a {
+    display: block;
+    width: 220px;
+    height: 71px;
+    background: url(../../素材/images/logo.png) no-repeat;
+    font-size: 0;
+}
+
+.search {
+    position: absolute;
+    left: 346px;
+    top: 25px;
+    width: 538px;
+    height: 36px;
+    border: 2px solid #b1191a;
+}
+
+.search input {
+    float: left;
+    width: 454px;
+    height: 32px;
+    padding-left: 10px;
+}
+
+.search button {
+    /* margin-top: -1px; */
+    float: left;
+    width: 80px;
+    height: 100%;
+    background-color: #b1191a;
+    font-size: 16px;
+    color: #fff;
+}
+
+.hotwords {
+    position: absolute;
+    top: 66px;
+    left: 346px
+}
+
+.hotwords a {
+    margin: 0 10px;
+}
+
+.shopcar {
+    position: absolute;
+    font-size: 17px;
+    right: 60px;
+    top: 25px;
+    width: 165px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    border: 1px solid #dfdfdf;
+    background-color: #f7f7f7;
+
+}
+
+.shopcar::before {
+    font-family: 'iconfont';
+    content: '\e6fc';
+    margin-right: 5px;
+    font-size: 17px;
+}
+
+.shopcar::after {
+    font-family: 'iconfont';
+    content: '\e6ed';
+    margin-left: 10px;
+    font-size: 16px;
+}
+
+.count {
+    position: absolute;
+    font-size: 8px;
+    top: -5px;
+    left: 115px;
+    height: 16px;
+    line-height: 16px;
+    color: #fff;
+    background-color: #e60012;
+    padding: 0px 5px;
+    border-radius: 8px 8px 8px 0px;
+}
+
+.nav {
+    height: 47px;
+    border-bottom: 2px solid #b1191a;
+}
+
+.nav .dropdown {
+    float: left;
+    width: 210px;
+    height: 45px;
+    background-color: #b1191a;
+
+}
+
+.nav .dropdown .dt {
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    text-align: center;
+    line-height: 45px;
+    font-size: 16px;
+}
+
+.nav .navitems {
+    float: left;
+}
+
+.nav .dropdown .dd {
+    display: block;
+    margin-top: 2px;
+    width: 210px;
+    height: 465px;
+    background-color: #c81623;
+}
+
+.nav .dropdown .dd ul li {
+    position: relative;
+    height: 31px;
+    line-height: 31px;
+    margin-left: 2px;
+    padding-left: 10px;
+}
+
+.nav .dropdown .dd ul li:hover {
+    background-color: #fff;
+}
+
+.nav .dropdown .dd ul li a {
+    font-size: 14px;
+    color: #fff;
+}
+
+.nav .dropdown .dd ul li:hover a {
+    color: #c81623;
+}
+
+.nav .dropdown .dd ul li::after {
+    position: absolute;
+    top: 1px;
+    right: 10px;
+    font-family: 'iconfont';
+    content: '\e6ed';
+
+}
+
+.navitems ul li {
+    float: left;
+}
+
+.navitems ul li a {
+    display: block;
+    height: 45px;
+    line-height: 45px;
+    font-size: 16px;
+    padding: 0px 25px;
+}
+
+.footer {
+    height: 415px;
+    background-color: #f5f5f5;
+    padding-top: 30px;
+}
+
+.mod_service {
+    height: 80px;
+    /* border-bottom:1px solid #ccc; */
+}
+
+.mod_service ul li {
+    float: left;
+    width: 300px;
+    height: 50px;
+
+    padding-left: 35px;
+}
+
+.mod_service ul li h5 {
+    float: left;
+    width: 50px;
+    height: 50px;
+    background: url(../../素材/images/icons.png) no-repeat -252px -3px;
+    margin-right: 8px;
+}
+
+.service_txt h4 {
+    font-size: 14px;
+}
+
+.service_txt p {
+    font-size: 12px;
+}
+
+.mod_help {
+    height: 185px;
+
+    padding-top: 20px;
+    padding-left: 50px;
+}
+
+.mod_help dl {
+    float: left;
+    width: 200px;
+}
+
+.mod_help dl:last-child {
+    width: 90px;
+}
+
+.mod_help dl dt {
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.mod_copyright {
+    padding-top: 20px;
+    text-align: center;
+}
+
+.mod_copyright .links {
+    margin-bottom: 15px;
+}
+
+.copyright {
+    line-height: 20px;
+}
+
+.mod_copyright .links a {
+    margin: 0 3px;
+}
+
